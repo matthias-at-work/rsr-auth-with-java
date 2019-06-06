@@ -18,13 +18,16 @@ This file shows how to use the RSR Auth Library using JNA.
   apt-get install default-jdk
   ````
   
-- Download JNA -> https://github.com/java-native-access/jna   docu -> http://java-native-access.github.io/jna/5.3.1/javadoc/
-  Placed the folloiwng file into `/home/mats/rsr-verify-test/`: `jna-5.3.1.jar`
+- Download JNA and docu
+  - https://github.com/java-native-access/jna
+  - http://java-native-access.github.io/jna/5.3.1/javadoc/
+  - Placed the downloaded file `jna-5.3.1.jar` into `/home/mats/rsr-verify-test/`
 
 - Reference JNA in CLASSPATH:
   ````
   export CLASSPATH=/home/mats/rsr-verify-test/jna-5.3.1.jar:$CLASSPATH
   ````
+
 
 #### 2. Get RSR-related stuff
 - Get library from rsr-auth. Using `RSRAuthentication_1.3`:
@@ -35,8 +38,9 @@ This file shows how to use the RSR Auth Library using JNA.
 
 - Copied RSR-keyfile `fsr-authentication.public.keys' (containing public keys only) into folder `/home/mats/rsr-verify-test/`
 
+
 #### 3. Write code and run
-- Place below source-file `RsrAuthTest.java` into the same directory.
+- Place source-file `RsrAuthTest.java` (part of this repo) into the same directory. Adjust code (e.g. username, token).
 
 - Compile and run
   ````
@@ -44,6 +48,5 @@ This file shows how to use the RSR Auth Library using JNA.
   java RsrAuthTest
   ````
 
-----
 
-  
+ 
