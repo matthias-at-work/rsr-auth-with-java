@@ -1,6 +1,6 @@
 /**
  * Dummy example to use JNA to access RSR-auth library.
- * Matthias Bader 09-JUN-2019
+ * Matthias Bader 06-JUN-2019
  */
 
 import com.sun.jna.Library;
