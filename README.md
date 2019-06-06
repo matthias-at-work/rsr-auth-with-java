@@ -40,7 +40,9 @@ This file shows how to use the RSR Auth Library using JNA.
 
 
 #### 3. Write code and run
-- Place source-file `RsrAuthTest.java` (part of this repo) into the same directory. Adjust code (e.g. username, token).
+- Place source-file [RsrAuthTest.java](/RsrAuthTest.java) into the same directory (`/home/mats/rsr-verify-test/`). 
+
+- Adjust code with the corresponding username/token.
 
 - Compile and run
   ````
