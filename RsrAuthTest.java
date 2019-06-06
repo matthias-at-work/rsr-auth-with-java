@@ -46,7 +46,7 @@ class RsrAuthTest {
     public static void main(String[] args) {
 		
 	// instantiate library from key-file
-	com.sun.jna.WString filePath = new com.sun.jna.WString("//home//mats//myjava//fsr-authentication.public.keys");
+	com.sun.jna.WString filePath = new com.sun.jna.WString("//home//mats//rsr-verify-test//fsr-authentication.public.keys");
         CLibrary.INSTANCE.fsrverify_InitLoadFromFile(filePath);
 		
 	// call verification method
