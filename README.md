@@ -1,4 +1,4 @@
-## Native RSR Auth library accessed with Java under Ubuntu ##
+## Native RSR Auth library accessed with Java/JNA under Ubuntu ##
 
 ### Motivation
 
